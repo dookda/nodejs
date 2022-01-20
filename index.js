@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 
 const port = 5100;
 
-const api = require("./services/api")
+const api = require("./service/api")
 app.use(api)
 
 app.listen(port, () => {
